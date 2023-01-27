@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(183, 183, 254);
+}
+
+header {
+    background-color:rgb(86, 86, 255);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    width: 10vh;
+    height: 8vh;
+}
+
+
+header h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: right;
+    font-size: 18px;
+    margin-top: -43px;
+    padding: 0 20px 0 0;
+}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -43px;
+}
+
+header button {
+    padding: 1% 2%;
+    font-size: 20px;
+    background-color: rgb(166, 166, 249);
+    color: #fff;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+header button:hover {
+    color: #fff;
+    background-color: rgb(79, 79, 254);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.604);
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px 190px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 4%;
+    margin: 2%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.74);
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(110%);
+}
+
+.card .profile-image img {
+    border-radius: 100px;
+
+}
+
+.card .card-content {
+    text-align: center;
+}
+
+.card .card-content h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card .card-content h2 {
+    font-size: 18px;
+    font-weight: 100;
+}
